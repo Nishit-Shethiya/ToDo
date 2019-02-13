@@ -34,7 +34,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="ToDo" id="xoM-fj-Jwi">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="jvN-zL-P8e">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" name="linkColor" catalog="System" colorSpace="catalog"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="AeG-yQ-bhE" id="G3m-Qa-X4a"/>
                             </connections>
@@ -55,7 +55,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" name="linkColor" catalog="System" colorSpace="catalog"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
